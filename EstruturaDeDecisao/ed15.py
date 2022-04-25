@@ -12,7 +12,7 @@ print('Entre com os dados para verificação do TRIANGULO')
 l1 = int(input('Entre com primeiro lado: '))
 l2 = int(input('Entre com segundo lado: '))
 l3 = int(input('Entre com o terceiro lado: '))
-
+print('')
 if l1 < l2 + l3 and l2 < l1 + l2 and l3 < l1 + l2:
     print('FORMA UM TRIANGULO')
     if l1 == l2 == l3:
