@@ -9,8 +9,6 @@ for n in range(1,6):
       maior = n
 
    notas += n
-   media = notas/n
- 
-print(media)
-print(maior)
+  
+print('A nota maior é {}'.format(maior))
 
