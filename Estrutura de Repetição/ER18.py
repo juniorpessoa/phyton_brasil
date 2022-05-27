@@ -10,9 +10,9 @@ escolha = int(input('Entre com a quantidade de número desejado: '))
 print(escolha)
 for c in range(1,escolha+1):
     n = int(input(f'Entre com o {c} número: '))
-    if menor >= 0:
+    if menor <= 0:
         menor = n
     else:
-       menor = n
+       maior = n
 
 print(menor)
